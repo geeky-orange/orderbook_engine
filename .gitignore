@@ -1,4 +1,33 @@
+# Build files
+build/
+*.o
+*.d
+*.a
+orderbook
+orderbook_test
+
+# Debug files
+*.dSYM/
+debug/
+a.out
+
+# Test artifacts
+mini_orderbook
+mini_orderbook_cancel
+minimal_orderbook
+simple_orderbook
+orderbook_debug
+orderbook_fixed
+orderbook_bugfix.cpp
+mini_orderbook.cpp
+mini_orderbook_cancel.cpp
+minimal_orderbook.cpp
+simple_orderbook.cpp
+
+# IDE and OS files
+.vscode/
+.DS_Store
+
 *.out
 *.exec
-datastructures.cpp
 
